@@ -1,0 +1,275 @@
+.clear {
+    clear: both;
+}
+body {
+    background: url("img/confectionary.png") repeat fixed;
+}
+/*for mobile*/
+.page-wrapper {
+    width: 100%;
+    margin: 0 auto;
+    background: #FAFAFA;
+    -webkit-box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.5);
+    box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.5);
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+}
+
+.page-header {
+    width: 100%;
+    min-height: 80px;
+    padding-bottom: 20px;
+    background: #57595B;
+    border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+}
+
+.page-content {
+    width: 100%;
+}
+
+.left-column {
+    float: left;
+    width: 100%;
+    min-height: 100px;
+    background: #FAFAFA;
+}
+
+.right-column {
+    float: left;
+    width: 100%;
+    min-height: 100px;
+    background: #FAFAFA;
+}
+
+.page-footer {
+    width: 100%;
+    display: inline-block;
+    background: #57595B;
+    border-radius: 0px 0px 5px 5px;
+    -moz-border-radius: 0px 0px 5px 5px;
+    -webkit-border-radius: 0px 0px 5px 5px;
+}
+
+.footer-content {
+    margin: 15px auto;
+    padding: 5px;
+    width: 150px;
+    font-size: 13px;
+    color: white;
+}
+
+.title-wrapper {
+    float: left;
+    height: 40px;
+    margin-top:30px;
+    margin-left:40px;
+}
+.title-wrapper p {
+    margin: 0;
+    font-size: 40px;
+    color: lightgreen;
+    font-weight: bold;
+    line-height: 40px;
+}
+.subtitle-wrapper {
+    float:left;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.subtitle-wrapper p {
+    margin: 0;
+    color: white;
+    font-size: 17px;
+    line-height: 40px;
+}
+
+.left-block {
+    margin: 30px;
+}
+
+.logo {
+    margin: 30px auto;
+    height: 250px;
+    width: 250px;
+    -webkit-box-shadow: 5px 5px 7px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 5px 7px -2px rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 7px -2px rgba(0,0,0,0.75);
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.skill-wrapper .skill-title {
+    width: 100%;
+}
+.skill-wrapper .skill-title p {
+    margin: 0;
+    font-size: 25px;
+}
+.skill-wrapper .skill-detail {
+    margin: 0;
+    width: 100%;
+}
+.skill-wrapper .skill-detail .skill {
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    padding: 5px;
+    margin: 5px 2px;
+    background-color: skyblue;
+    display: inline-block;
+    -webkit-transition: background-color 0.2s ease-in-out 0;
+    -moz-transition: background-color 0.2s ease-in-out 0;
+    transition: background-color 0.2s ease-in-out 0;
+}
+.skill-wrapper .skill-detail .skill:hover {
+    background-color:darkorange; 
+}
+
+.link ul {
+    list-style-type: square;
+}
+
+.contact-info p {
+    margin: 20px 0;
+}
+
+.block {
+    /*background: white;*/
+    margin: 30px 20px;
+    min-height: 100px;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border: 0px solid #000000;
+}
+.block .block-title h1 {
+    border-top: 3px solid lightgray;
+    color: #3F3F3F;
+}
+
+.block .block-content p {
+    color: #3F3F3F;
+    font-size: 18px;
+}
+
+@media screen and (min-width: 600px) {
+    .left-block {
+        margin: 30px 30px;
+        width: 250px;
+        float: left;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    /*800px above*/
+
+    .page-header {
+        min-height: 150px;
+    }
+
+    .title-wrapper {
+        height: 80px;
+        margin-top:40px;
+        margin-left:50px;
+    }
+    .title-wrapper p {
+        font-size: 50px;
+        line-height: 80px;
+    }
+    .subtitle-wrapper {
+        height: 80px;
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+    .subtitle-wrapper p {
+        font-size: 20px;
+        line-height: 80px;
+    }
+
+    .left-block {
+        margin: 30px;
+        width: 300px;
+    }
+
+    .page-wrapper {
+        width: 800px;
+        min-height: 1450px;
+    }
+
+    .page-content {
+        min-height: 1200px;
+    }
+
+    .left-column {
+        width: 30%;
+        min-height: 1200px;
+    }
+
+    .right-column {
+        width: 70%;
+        min-height: 1200px;
+    }
+    .left-block {
+        margin: 15px;
+        width: 200px;
+    }
+    .logo {
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    /*1200px above*/
+    .page-wrapper {
+        width: 1200px;
+    }
+    .left-block {
+        margin: 30px;
+        width: 300px;
+    }
+    .logo {
+        height: 300px;
+    }
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    height: 40px;
+    font-size: 18px;
+}
+
+.last-item {
+    border-bottom: 1px solid #ddd;
+}
+tr {
+    -webkit-transition: background-color 0.2s ease-in-out 0;
+    -moz-transition: background-color 0.2s ease-in-out 0;
+    transition: background-color 0.2s ease-in-out 0;
+}
+tr:hover {
+    background: #f5f5f5;
+}
+
+.col-1 {
+    width: 60%;
+}
+.col-2 {
+    width: 40%;
+}
+
+ul li {
+    margin: 10px 0;
+}
